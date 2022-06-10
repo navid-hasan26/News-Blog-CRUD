@@ -1,17 +1,19 @@
 {
-  "name": "crud-app",
+  "name": "news-blog-crud",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple News Blog CRUD application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navid-hasan26/News-Blog-CRUD.git"
+  },
+  "author": "Navid Hasan",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "express": "^4.18.1",
-    "mysql": "^2.18.1",
-    "sequelize": "^6.20.1"
-  }
+  "bugs": {
+    "url": "https://github.com/navid-hasan26/News-Blog-CRUD/issues"
+  },
+  "homepage": "https://github.com/navid-hasan26/News-Blog-CRUD#readme"
 }
