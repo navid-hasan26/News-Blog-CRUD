@@ -51,12 +51,16 @@ router.post("/login", async (req, res) => {
     });
     return;
   }
+
+
   //check whether the user with that Email exists or not
   if (req.body.Email !== user.Email) {
     return res.status(401).send({
       msg: "Email is incorrect",
     });
   }
+
+
   //check Password is correct
   bcrypt.compare(req.body.Password, user.Password, async (err, r) => {
     console.log(req.body.Password);
@@ -77,8 +81,6 @@ router.post("/login", async (req, res) => {
     });
   });
 });
-
-// ==============================================================================================
 
 
 module.exports = router;
