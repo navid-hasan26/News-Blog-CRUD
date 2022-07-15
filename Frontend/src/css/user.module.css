@@ -1,0 +1,35 @@
+.userContainer {
+    background: rgba(0, 0, 0, 0.699);
+    width:fit-content;
+    height: fit-content;
+    padding: 40px;
+    margin: 30px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 10%;
+}
+
+.info{
+    padding: 10px;
+}
+.userContainer h2{
+    color:  #e9410a;
+    padding-bottom: 20px;
+}
+
+.userContainer p{
+    color: #bca482;
+    padding-bottom: 20px;
+}
+.userContainer button{
+    background: #e9410a;
+    color: #191211;
+    border: none;
+    padding: 8px 15px;
+    margin-left: 115px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

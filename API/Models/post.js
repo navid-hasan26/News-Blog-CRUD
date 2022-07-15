@@ -1,5 +1,6 @@
 const Sequelize = require("sequelize")
 const sequelize = require("../Database/database")
+const bcrypt = require("bcryptjs")
 
 const Post = sequelize.define('post', {
     id: {
