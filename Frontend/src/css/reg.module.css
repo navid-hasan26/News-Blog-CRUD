@@ -1,5 +1,5 @@
 body {
-    background: url("https://images.unsplash.com/photo-1485802007047-7774de7208e5?dpr=1&auto=compress,format&fit=crop&w=1800&h") no-repeat center center fixed;
+    background: url("https://unsplash.com/photos/vcF5y2Edm6A/1600x900") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Droid Serif', serif;
 }
@@ -33,17 +33,6 @@ fieldset {
     border: 0;
     text-align: center;
 }
-
-/* input[type="submit"] {
-    background: rgba(235, 30, 54, 1);
-    border: 0;
-    display: block;
-    width: 70%;
-    margin: 0 auto;
-    color: white;
-    padding: 0.7rem;
-    cursor: pointer;
-} */
 
 input ,textarea{
     background: transparent;
