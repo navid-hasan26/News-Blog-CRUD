@@ -9,9 +9,6 @@ export const Registration = () => {
   const toLogin = () => {
     navigate("/api/auth/login");
   };
-  // const toHome = () => {
-  //   navigate('/');
-  // };
 
   const { name, email, password } = user;
   const register = async () => {
@@ -28,7 +25,6 @@ export const Registration = () => {
       console.log(response);
 
       console.log(status);
-      // eslint-disable-next-line default-case
       switch (status) {
         case 201:
           alert("Registered");

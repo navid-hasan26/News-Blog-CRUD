@@ -2,9 +2,9 @@ const router = require("express").Router();
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
-const User = require("../../api/Models/user");
+const User = require("../../Models/user");
 const { validationResult } = require("express-validator");
-const { generateToken } = require("../../api/Utility/token");
+const { generateToken } = require("../../Utility/token");
 
 function checker(result) {
   if (!result.isEmpty()) {

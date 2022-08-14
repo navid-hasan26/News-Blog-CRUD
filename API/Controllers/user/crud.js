@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const bcrypt = require("bcrypt");
-const User = require("../../api/Models/user");
-const auth_jwt = require("../../api/Middleware/auth");
+const User = require("../../Models/user");
+const auth_jwt = require("../../../API/Middleware/auth");
 
 
 //get all users from database 

@@ -1,7 +1,7 @@
-const Post = require("../../api/Models/post");
-const User = require("../../api/Models/user");
+const Post = require("../../../API/Models/post");
+const User = require("../../../API/Models/user");
 const router = require("express").Router();
-const auth_jwt = require("../../api/Middleware/auth");
+const auth_jwt = require("../../Middleware/auth");
 
 
 //create post with auth_jwt
