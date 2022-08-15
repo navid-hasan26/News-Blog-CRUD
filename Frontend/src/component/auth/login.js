@@ -25,7 +25,6 @@ export const Login = () => {
       );
       const status = await response.status;
 
-      // eslint-disable-next-line default-case
       switch (status) {
         case 200:
           console.log(response.data.user.id);
@@ -49,6 +48,7 @@ export const Login = () => {
     const fieldName = e.target.name;
     setUser({ ...user, [fieldName]: e.target.value });
   };
+
   return (
     <div className={style2.container}>
       <header>Log in</header>
